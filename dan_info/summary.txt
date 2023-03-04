@@ -1,0 +1,13 @@
+Daniel Han
+Summary
+Daniel Han is an accomplished electrical engineer with experience in various engineering roles. He holds a Bachelor of Science degree in Electrical Engineering from the Georgia Institute of Technology, an MBA from the Graduate School of Business at Seoul National University, and completed a Self-Driving Car Engineer Nanodegree Program through Udacity. With extensive experience in program management, sensor fusion, Kalman Filters, Python, SCRUM, and GIT, Daniel has worked on various cutting-edge technologies such as ADAS camera systems, space communication systems, and more.
+
+Education
+Self-Driving Car Engineer Nanodegree Program, Udacity
+The Self-Driving Car Engineer Nanodegree Program is an intensive program that teaches students how to build autonomous vehicles from scratch. Daniel completed this program, which covers topics such as deep learning, computer vision, sensor fusion, and more.
+
+MBA, Graduate School of Business at Seoul National University
+The MBA program at Seoul National University is a rigorous program that covers topics such as management, finance, marketing, and more. Daniel completed this program and gained valuable skills in business administration.
+
+Bachelor of Science in Electrical Engineering, Georgia Institute of Technology
+The Bachelor of Science program in Electrical Engineering at Georgia Tech is a comprehensive program that covers topics such as circuits, control systems, electromagnetics, and more. Daniel completed this program and gained a solid foundation in electrical engineering.

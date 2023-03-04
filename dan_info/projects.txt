@@ -1,0 +1,18 @@
+Projects
+BENJI
+BENJI is a chatbot that resides on Daniel's personal website and serves as an interactive platform for users to learn more about him. The chatbot uses some prompt engineering, semantic search, and OpenAI's GPT-3 API to provide users with information about Daniel. There are plans to upgrade BENJI to use OpenAI's new chatGPT API, which will allow for more advanced conversation capabilities and a richer user experience.
+
+Garlic Bread Coin
+Garlic Bread Coin is a cryptocurrency project that Daniel worked on as a fun side project to learn more about the world of crypto. He forked an Ethereum ERC-20 token to create Garlic Bread Coin, which was never traded on any exchanges, but at its peak, had 5 desktops mining the coin. Through this project, Daniel gained valuable experience and knowledge about the intricacies of cryptocurrency development.
+
+Project MNEMOS
+Project MNEMOS was a project that Daniel worked on in 2019 with the goal of improving human memory. The project involved the user wearing a camera all day to record video of their day, which they would then upload to a server where it would be processed using machine learning. The video would be analyzed using object detection, and the audio would be transcribed using speech recognition. The end goal was to make all this searchable, but unfortunately, the project became economically prohibitive, and was never fully realized.
+
+Udacity Capstone Project: Programming a Real Self-Driving Car
+As part of the Udacity Self-Driving Car Engineer Nanodegree Program, Daniel completed the Capstone Project, where he applied his machine learning projects from the nanodegree to a real-life application. He and his team were given access to a real car, which they programmed to follow the lane and identify road signs. They used reinforcement learning to train the car to follow the road, and a VGG deep learning architecture to identify road signs. This project provided Daniel with valuable experience in applying machine learning techniques to real-world problems.
+
+Pepper
+Pepper is a project that Daniel started in 2023 as an experimentation of an Artificial Cognitive Entity (ACOG) that uses systems engineering to experiment with AGIs. Pepper is Daniel's own version of a chatbot, inspired by earlier versions of BENJI. It takes a user message, tokenizes it, performs semantic search over previous conversations, searches for external sources, calls OpenAI's GPT-3 API, and responds. To scale its memory, Pepper uses other technologies such as FAISS. This project has allowed Daniel to further explore and experiment with large language models (LLMs) and AGI, and develop new skills and knowledge in this area.
+
+Other Projects
+Daniel has also worked on various projects throughout his career, including designing and developing advanced automotive infotainment systems targeted at vehicles to be built 4-6 years from now, designing new platforms that allowed the integration of new software development for future products, and working on camera systems for ADAS, driver monitoring, and occupant monitoring. He has also evaluated emerging technologies and vendors to ensure that his projects remained competitive in the marketplace.

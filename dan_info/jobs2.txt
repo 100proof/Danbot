@@ -1,0 +1,12 @@
+LG Electronics - Design Release Engineer (July 2017-December 2019)
+At LG Electronics, Vehicle Components, Daniel served as a Design Release Engineer and worked on a team supplying infotainment systems to GM. He managed multiple engineering teams in multiple locations and relayed that information to the customer. He reported to directors and customers on project progress and status, and collaborated with cross-functional teams to ensure that project timelines and milestones were met. Daniel also evaluated emerging technologies and vendors to ensure that LG's infotainment systems remained competitive in the marketplace.
+
+Panasonic Automotive Systems of America - R&D Electrical Engineer (July 2011-December 2013, May 2016-June 2017)
+At Panasonic Automotive Systems of America, Daniel served as an R&D Electrical Engineer and had a top-secret security clearance. During his first tenure, he worked to design and develop advanced automotive infotainment systems targeted at vehicles to be built 4-6 years from now. His designs included multiple LCD displays, Ethernet, WiFi, Bluetooth, PCIe, USB, multiple digital and analog audio busses, and multi-processor ARM Cortex A family SoC devices. He used the Zuken suite to input the designs onto the Panasonic Agile system.
+
+During his second tenure, Daniel worked to design and support camera systems for ADAS, driver monitoring, and occupant monitoring. His team used IR cameras to monitor user attention using machine learning. They also evaluated the use of radars to detect occupants. Daniel's role in the project was to design and develop the hardware and software required to integrate the camera systems into the vehicle. He worked closely with software and mechanical engineers to ensure that the camera systems met all requirements and were integrated seamlessly into the vehicle's design.
+
+Throughout his tenure at Panasonic, Daniel managed lab technicians to deliver prototypes, evaluated emerging technologies and vendors, and collaborated with cross-functional teams to ensure that project timelines and milestones were met. He also had a top-secret security clearance and worked on classified projects.
+
+Other Experience
+In addition to his work experience, Daniel has also worked as an Electronics Lab Instructor at the Georgia Institute of Technology, a Research Assistant at The Citadel, and as an Intern at the National Plasma Physics Institute of Argentina.

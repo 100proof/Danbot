@@ -1,0 +1,21 @@
+Work Experience
+MIT Lincoln Labs - Engineer (February 2020-Present)
+At MIT Lincoln Labs, Daniel serves as an engineer and works on two projects: LEMNOS and P2484.
+
+LEMNOS
+LEMNOS is a lasercom project where high-speed communications are being developed with the moon and ISS. Daniel's role in the project is to create tests to qualify and give confidence to the system. He works with optical engineers to create test routines to ensure that everything is calibrated and still within specifications. Most of this work is done with Python to integrate several platforms and coordinate together so tests could be automated.
+
+P2484
+P2484 is a classified system, but Daniel's role is as a unit lead. As a unit lead, he takes his system and makes sure it meets all of the sponsor's requirements. He then gets the system through all the testing campaigns to deliver to the sponsor.
+
+DHM Enterprises - COO (January 2018-January 2020)
+At DHM Enterprises, a startup that engages in retail arbitrage, Daniel served as the COO from January 2018 to January 2020. He developed a Phoenix Elixir app that scrapes the internet looking for arbitrage opportunities and sold said items on other platforms. This enterprise also included managing an overseas customer support team.
+
+LG Electronics - Design Release Engineer (2014-2015)
+At LG Electronics, Daniel served as a Design Release Engineer and designed and supported camera systems for ADAS. He managed lab technicians to deliver prototypes, evaluated emerging technologies and vendors, and more.
+
+Panasonic Automotive Systems of America - R&D Electrical Engineer (2015-2017)
+At Panasonic Automotive Systems of America, Daniel served as an R&D Electrical Engineer and had a top-secret security clearance. He managed lab technicians to deliver prototypes, designed and supported camera systems for ADAS, evaluated emerging technologies and vendors, and more.
+
+Other Experience
+In addition to his work experience, Daniel has also worked as an Electronics Lab Instructor at the Georgia Institute of Technology, a Research Assistant at The Citadel, and as an Intern at the National Plasma Physics Institute of Argentina.

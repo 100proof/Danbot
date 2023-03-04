@@ -6,6 +6,7 @@ from numpy.linalg import norm
 import re
 from time import time,sleep
 from uuid import uuid4
+from fastapi import FastAPI, HTTPException
 
 
 def open_file(filepath):
@@ -93,7 +94,7 @@ def get_last_messages(conversation, limit):
     return output
 
 
-def gpt3_completion(prompt, engine='text-davinci-003', temp=0.0, top_p=1.0, tokens=400, freq_pen=0.0, pres_pen=0.0, stop=['USER:', 'RAVEN:']):
+def gpt3_completion(prompt, engine='text-davinci-003', temp=0.0, top_p=1.0, tokens=400, freq_pen=0.0, pres_pen=0.0, stop=['USER:', 'BENJI:']):
     max_retry = 5
     retry = 0
     prompt = prompt.encode(encoding='ASCII',errors='ignore').decode()
@@ -124,28 +125,30 @@ def gpt3_completion(prompt, engine='text-davinci-003', temp=0.0, top_p=1.0, toke
             sleep(1)
 
 
+
+
 if __name__ == '__main__':
     openai.api_key = open_file('openaiapikey.txt')
     while True:
         #### get user input, save it, vectorize it, etc
-        a = input('\n\nUSER: ')
+        a = input('\n\nDANIEL: ')
         vector = gpt3_embedding(a)
-        info = {'speaker': 'USER', 'time': time(), 'vector': vector, 'message': a, 'uuid': str(uuid4())}
-        filename = 'log_%s_USER.json' % time()
+        info = {'speaker': 'DANIEL', 'time': time(), 'vector': vector, 'message': a, 'uuid': str(uuid4())}
+        filename = 'log_%s_DANIEL.json' % time()
         save_json('chat_logs/%s' % filename, info)
         #### load conversation
         conversation = load_convo()
         #### compose corpus (fetch memories, etc)
-        memories = fetch_memories(vector, conversation, 10)  # pull episodic memories
+        memories = fetch_memories(vector, conversation, 12)  # pull episodic memories
         # TODO - fetch declarative memories (facts, wikis, KB, company data, internet, etc)
         notes = summarize_memories(memories)
         recent = get_last_messages(conversation, 4)
-        prompt = open_file('prompt_response.txt').replace('<<NOTES>>', notes).replace('<<CONVERSATION>>', recent)
+        prompt = open_file('prompt_prepare.txt').replace('<<NOTES>>', notes).replace('<<CONVERSATION>>', recent)
         #### generate response, vectorize, save, etc
         output = gpt3_completion(prompt)
         vector = gpt3_embedding(output)
-        info = {'speaker': 'RAVEN', 'time': time(), 'vector': vector, 'message': output, 'uuid': str(uuid4())}
-        filename = 'log_%s_RAVEN.json' % time()
+        info = {'speaker': 'BENJI', 'time': time(), 'vector': vector, 'message': output, 'uuid': str(uuid4())}
+        filename = 'log_%s_BENJI.json' % time()
         save_json('chat_logs/%s' % filename, info)
         #### print output
-        print('\n\nRAVEN: %s' % output) 
+        print('\n\nBENJI: %s' % output) 
